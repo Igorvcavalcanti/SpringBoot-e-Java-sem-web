@@ -14,8 +14,8 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		var consumoApi = new ConsumoAPI();
-		var json = consumoApi.obterDados("https://coffee.alexflipnote.dev/random.json");
-		System.out.println(json);
+//		var consumoApi = new ConsumoAPI();
+//		var json = consumoApi.obterDados("https://coffee.alexflipnote.dev/random.json");
+//		System.out.println(json);
 	}
 }
